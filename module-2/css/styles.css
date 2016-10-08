@@ -1,0 +1,177 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Sans-serif;
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+p {
+  padding: 0px 5px 5px 5px;
+  color: black;
+  font-size: 100%;
+}
+
+div > div {
+  padding: 5px;
+}
+#sec1, #sec2, #sec3 {
+  position: relative;
+  border: 1px solid black;
+}
+
+#sec1 {
+  background-color: #A9A9A9;
+}
+
+#sec2 {
+  background-color: #BDB76B;
+}
+
+#sec3 {
+  background-color: #8FBC8F;
+}
+
+.wrap {
+  border: 1px solid black;
+  width: 35%;
+  padding-bottom: 0px;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  visibility: hidden;
+}
+
+#chicken, #beef, #sushi {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  width: 35%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#chicken {
+  background-color: #FFB6C1;
+  color: black;
+}
+
+#beef {
+  background-color: #FF6347;
+  color: white;
+}
+
+#sushi {
+  background-color:  #EEE8AA;
+  color: black;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop version only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    padding: 10px;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet version only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #sushi {
+      width: 17.5%;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    padding: 10px;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
