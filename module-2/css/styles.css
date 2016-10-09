@@ -13,7 +13,7 @@ h1 {
   font-weight: bold;
   font-size: 140%;
   margin-top: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -47,7 +47,7 @@ div > div {
   border: 1px solid black;
   width: 35%;
   padding-bottom: 0px;
-  font-size: 100%;
+  font-size: 50%;
   font-weight: bold;
   text-align: center;
   display: block;
@@ -180,9 +180,12 @@ div > div {
 
 /********** Mobile version only **********/
 @media (max-width: 767px) {
+  div > div {
+  padding: 3px;
+}
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    padding: 10px;
+    padding: 5px;
   }
   .col-sm-1 {
     width: 8.33%;
